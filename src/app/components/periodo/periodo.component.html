@@ -1,0 +1,55 @@
+<div class="bodyLogin">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l8 offset-l2 loginDiv">
+                <div class="row loginContainer">
+
+                    <div class="center col s12 m5 l7 offset-l1 offset-m1">
+                        <div class="loginTitulo">
+                            <h5>Registro de Periodo</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">person</i>
+                                <input [(ngModel)]="periodo.nombrePeriodo" value="" class="browser-default" type="text" name="nombrePeriodo" id="nombrePeriodo" placeholder="nombre Periodo" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">person</i>
+                                <input [(ngModel)]="periodo.inicio"  value="" class="browser-default" type="date" name="inicio" id="inicioPeriodo" placeholder="inicio" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">person</i>
+                                <input  [(ngModel)]="periodo.fin" value="" class="browser-default" type="date" name="fin" id="finPeriodo" placeholder="fin" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">person</i>
+                                <input [(ngModel)]="periodo.actual" placeholder="actual" value="" class="browser-default" type="number" name="actual" id="actualPeriodo"autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">person</i>
+                                <input [(ngModel)]="periodo.avance1" placeholder="avance1" value="" class="browser-default" type="text" name="avance1" id="avance1Periodo" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">person</i>
+                                <input [(ngModel)]="periodo.avance2" placeholder="avance2" value="" class="browser-default" type="text" name="avance2" id="avance2Periodo" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">person</i>
+                                <input [(ngModel)]="periodo.avance3" placeholder="avance3" value="" class="browser-default" type="text" name="avance3" id="avance3Periodo" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">person</i>
+                                <input [(ngModel)]="periodo.avanceFinal" placeholder="avance final" value="" class="browser-default" type="text" name="avanceFinal" id="avanceFinalPeriodo" autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button  class="btn col l12 s12 m12 btnLogin ">
+                                REGISTRAR
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

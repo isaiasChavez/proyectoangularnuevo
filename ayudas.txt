@@ -1,0 +1,3 @@
+ng serve --port 4300(el puerto que se desee utilizar)
+18/01/22
+    Generar componente generales

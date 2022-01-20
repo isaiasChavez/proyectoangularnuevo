@@ -1,0 +1,59 @@
+<div class="bodyLogin">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l8 offset-l2 loginDiv">
+                <div class="row loginContainer">
+
+                    <div class="center col s12 m5 l7 offset-l1 offset-m1">
+                        <div class="loginTitulo">
+                            <h5>Registro de Profesor</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">person</i>
+                                <input [(ngModel)]="profesor.nombres" value="profesor.nombres" class="browser-default" type="text" name="nombres" id="nombres" placeholder="nombre(s)" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">person</i>
+                                <input [(ngModel)]="profesor.apellidoP" placeholder="apellido paterno" value="profesor.apellidoP" class="browser-default" type="text" name="apellidoP" id="apellidoP" placeholder="apellido paterno" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">person</i>
+                                <input [(ngModel)]="profesor.apellidoM" placeholder="apellido materno" value="profesor.apellidoM" class="browser-default" type="text" name="apellidoM" id="apellidoM" placeholder="apellido materno" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">email</i>
+                                <input [(ngModel)]="profesor.correoProfesor" placeholder="correo" value="profesor.correoProfesor" class="browser-default" type="email" name="email" id="email" placeholder="correo" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">vpn_key</i>
+                                <input [(ngModel)]="profesor.password" placeholder="password" value="profesor.password" class="browser-default" type="password" name="password" id="password" placeholder="contraseña" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">show_chart</i>
+                                <input [(ngModel)]="profesor.nivel" placeholder="nivel" value="profesor.nivel" class="browser-default" type="number" name="nivel" id="nivel" placeholder="nivel" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">work</i>
+                                <input [(ngModel)]="profesor.idCarrera" placeholder="idCarrera" value="profesor.idCarrera" class="browser-default" type="number" name="idCarrera" id="idCarrera" placeholder="idCarrera" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">local_library</i>
+                                <input [(ngModel)]="profesor.grado" placeholder="grado" value="profesor.grado" class="browser-default" type="text" name="grado" id="grado" placeholder="grado" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">portrait</i>
+                                <input [(ngModel)]="profesor.idTipoProfesor" placeholder="idTipoProfesor" value="profesor.idTipoProfesor" class="browser-default" type="number" name="idTipoProfesor" id="idTipoProfesor" placeholder="idTipoProfesor" autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button (click)="registro()" class="btn col l12 s12 m12 btnLogin ">
+                                REGISTRARSE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

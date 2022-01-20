@@ -1,0 +1,39 @@
+<div class="bodyLogin">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l8 offset-l2 loginDiv">
+                <div class="row loginContainer">
+                    <div class="col s12 m6 l6">
+                        <div class="col s11 offset-s1">
+                            <img src="assets/img/utm_ova.gif"
+                            class="responsive-img" alt="">
+                        </div>
+                    </div>
+                    <div class="col s12 m5 l5 offset-l1 offset-m1">
+                        <div class="loginTitulo">
+                            <h5>Iniciar Sesión</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">email</i>
+                                <input [(ngModel)]= "usuario.correo" placeholder="correo" value="usuario.correo" class="browser-default" type="email" name="email" id="email" placeholder="correo" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">vpn_key</i>
+                                <input [(ngModel)]= "usuario.password" placeholder="password" value="usuario.password" class="browser-default" type="password" name="password" id="password" placeholder="contraseña" autocomplete="off">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button (click)="logueo()" class="btn col l12 s12 m12 btnLogin ">
+                                LOGIN
+                            </button>
+                            <div class="col s12 m12 l12 divOlvide">
+                                <a href="">Olvidé mi contraseña!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

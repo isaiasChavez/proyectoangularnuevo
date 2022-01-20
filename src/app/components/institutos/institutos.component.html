@@ -1,0 +1,31 @@
+<div class="bodyLogin">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l8 offset-l2 loginDiv">
+                <div class="row loginContainer">
+
+                    <div class="center col s12 m5 l7 offset-l1 offset-m1">
+                        <div class="loginTitulo">
+                            <h5>Registro de Institutos</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">person</i>
+                                <input [(ngModel)]="institutos.nombre" value="" class="browser-default" type="text" name="nombre" id="nombreInstituto" placeholder="nombre" autocomplete="off">
+                            </div>
+                            <div class="col s12 customInput">
+                                <i class="material-icons prefix">person</i>
+                                <input  [(ngModel)]="institutos.codigo"  value="" class="browser-default" type="codigo" name="codigo" id="codigoInstituto" placeholder="codigo instituto" autocomplete="off">
+                            </div>
+                            
+                  <div class="row">
+                            <button  class="btn col l12 s12 m12 btnLogin ">
+                                REGISTRAR
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
